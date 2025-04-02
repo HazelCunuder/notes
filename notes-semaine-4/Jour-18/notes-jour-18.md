@@ -12,7 +12,9 @@ It's like a CSS with superpowers, it goes beyond what CSS is normally able to do
 
 Because it streamlines the CSS process, making it easier to read and to structure by introducing functions that aren't in base CSS like:
 
-* Nesting: Group selectors together, making the code easier to read by avoiding repetition
+### Nesting
+
+Group selectors together, making the code easier to read by avoiding repetition
 
 ```css
 /*Instead of having this*/
@@ -44,3 +46,19 @@ Because it streamlines the CSS process, making it easier to read and to structur
     }
 }
 ```
+
+### Variables
+
+Store values to reuse later on, like a main color for the background of your page, making it easier to keep your color palette consistent.
+
+It looks like this:
+
+```css
+$main-color: #ff0547;
+
+.container {
+    background-color: $main-color;
+}
+```
+
+This will apply the color set earlier.
