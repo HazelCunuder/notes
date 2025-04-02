@@ -98,3 +98,9 @@ It can look like this:
 Modular architecture in preprocessed css allows you to organize your stylesheet into smaller modules that can be reused with ease.
 
 It can be used to create small files for different purposes like a header, a footer, your variables etc. and then import them all into your stylesheet as you need them.
+
+## The mechanism behind it
+
+A Preprocessor is a program that converts code written in a higher level of language that a browser cannot understands into a simpler language that can be interpreted.
+
+In the case of CSS, it converts .scss, .less, .styl and many other languages into .css files that can then be used within your webpage.
