@@ -62,3 +62,33 @@ $main-color: #ff0547;
 ```
 
 This will apply the color set earlier.
+
+### Mixins
+
+Mixins are blocks of code you can reuse later on, they are very useful for creating styles that are going to be reoccuring inside a document.
+
+It can look like this:
+
+```css
+@mixin button-style {
+  border-radius: 5px;
+  padding: 10px 20px;
+  background: linear-gradient(to bottom, #007bff, #006fe6);
+  color: #fff;
+}
+
+.btn {
+  @include button-style;
+  font-size: 14px;
+}
+
+.btn-big {
+  @include button-style;
+  font-size: 20px;
+}
+
+.btn-small {
+  @include button-style;
+  font-size: 10px;
+}
+```
