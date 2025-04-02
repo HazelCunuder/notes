@@ -11,16 +11,30 @@
 
 ## Viewport
 
-The Viewport is the region of the screen used to display a portion of the total image to be shown.
+The Viewport is the region of the screen used to display a portion of the total image to be shown. It starts right under the menu bar and ends at the bottom of the window.
 
-![Viewport](../img/viewport.png)
+![Viewport](../img/Jour-17/viewport.png)
 
 It's pixel 0 is situated in the top left corner of the viewport.
 
-## Positionning
+## CSS Positionning
 
-* Static: default position in the normal flow
-* Absolute: relative to pixel 0
-* Relative: relative to the initial position of the element
-* Fixed: fixed to the viewport
-* Sticky: starts of as Static, and becomes Fixed once the element reaches the end of the viewport
+* **Static**: default position in the normal flow
+* **Absolute**: relative to pixel 0
+* **Relative**: relative to the initial position of the element
+* **Fixed**: fixed to the viewport
+* **Sticky**: starts of as Static, and becomes Fixed once the element reaches the end of the viewport
+
+![Positionning](../img/Jour-17/css-positionning.png)
+
+## CSS Combinators
+
+* **Descendant combinator `" "`** : Selects elements in the last selector if the ancestor selector matches.
+
+* **Child combinator** `" > "`: Only selects elements that are direct children of elements matched by the first selector.
+
+* **Adjacent-Sibling combinator** `" + "`: Only selects elements that come right after the ancestor selector.
+
+* **General Sibling combinator** `" ~ "`: Selects all sibling elements that come after their ancestor selector.
+
+![CSS Combinators](../img/Jour-17/rendered-css-combinators.png)
