@@ -19,3 +19,8 @@ It's pixel 0 is situated in the top left corner of the viewport.
 
 ## Positionning
 
+* Static: default position in the normal flow
+* Absolute: relative to pixel 0
+* Relative: relative to the initial position of the element
+* Fixed: fixed to the viewport
+* Sticky: starts of as Static, and becomes Fixed once the element reaches the end of the viewport
