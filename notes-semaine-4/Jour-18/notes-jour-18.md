@@ -103,4 +103,10 @@ It can be used to create small files for different purposes like a header, a foo
 
 A Preprocessor is a program that converts code written in a higher level of language that a browser cannot understands into a simpler language that can be interpreted.
 
+The main purpose behind doing this is to be able to use functionnalities that aren't available in vanilla CSS.
+
 In the case of CSS, it converts .scss, .less, .styl and many other languages into .css files that can then be used within your webpage.
+
+## Sass
+
+**[Link to the Sass Cheatsheet](../../../../lab/git/cheat-sheets/cheat-sheets/sass-cheatsheet.md)**
