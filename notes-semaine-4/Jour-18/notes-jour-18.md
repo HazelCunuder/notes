@@ -92,3 +92,9 @@ It can look like this:
   font-size: 10px;
 }
 ```
+
+### Modularity
+
+Modular architecture in preprocessed css allows you to organize your stylesheet into smaller modules that can be reused with ease.
+
+It can be used to create small files for different purposes like a header, a footer, your variables etc. and then import them all into your stylesheet as you need them.
