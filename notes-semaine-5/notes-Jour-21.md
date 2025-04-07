@@ -34,3 +34,10 @@ The 7-1 architecture in SASS refers to 7 folders for a single main file. This is
 
 ![7-1 sass](https://media.licdn.com/dms/image/v2/D4D12AQGBeGtHTg1IDw/article-inline_image-shrink_1500_2232/article-inline_image-shrink_1500_2232/0/1733240833652?e=1749686400&v=beta&t=omlJ9izoVvKXWM0BTJ37vCuK7a-N5sNvlMAQ7XpCYyM)
 
+### Why use 7-1 architecture
+
+- Easier to manage and organize thanks to clear organization
+- Easier to scale up
+- Easily reusable depending on the projects
+- Makes collaboration simpler thanks to its consistent structure.
+
