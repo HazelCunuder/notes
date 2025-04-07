@@ -41,3 +41,11 @@ The 7-1 architecture in SASS refers to 7 folders for a single main file. This is
 - Easily reusable depending on the projects
 - Makes collaboration simpler thanks to its consistent structure.
 
+## CSS colors
+
+### Notations
+
+- RGBa: Red (0-255), Green (0-255), Blue (0-255), alpha (0-1). Written: `rgba(x,x,x,x)`
+- HSLa: Hue (0-360), Saturation (0%-100%), Lightness (0% - 100%), alpha (0-1). Written: `hsla(x,x%,x%,x)`
+- Hexadecimal code: Range of values: 00-FF Written: `#RRGGBB`
+- Pre-defined colors: 140 different color names
