@@ -246,4 +246,26 @@ If an operation has multiple operators then the execution order is defined by th
 
 ![Operator Precendence](img/operator-precendence.png)
 
-While not in the aforementioned table, parentheses override any precedence?
+While not in the aforementioned table, parentheses override any precedence.
+
+### Increment/Decrement
+
+- **Increment** `++`: Increases a variable by 1
+- **Decrement** `--`: Decreases a variable by 1
+
+They can be placed before (*prefix form*) or after (*postfix form*) a variable.
+
+- **Prefix Form**: Increments or decremens, then return new value
+- **Postfix Form**: Returns old value then increments or decrements
+
+Example:
+
+    ```javascript
+    let a = 1, b = 1;
+
+    alert( ++a ); // 2, prefix form returns the new value
+    alert( b++ ); // 1, postfix form returns the old value
+
+    alert( a ); // 2, incremented once
+    alert( b ); // 2, incremented once
+    ```
