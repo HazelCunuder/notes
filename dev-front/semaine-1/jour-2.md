@@ -158,6 +158,24 @@ Strings in JS must be surrounded by quotes, we can use 3 different types:
 
 The first two act the same, but Backticks are special. They allow us to embed variables and expressions into a string by wrapping them in `${...}`.
 
+### Boolean
+
+Only 2 values: `true` or `false`
+
+Used for logical operations.
+
+### null & undefined
+
+`null` is a value that doesn't belong in any of the types cited before.
+
+Unlike other languages, `null` in Javascript represents *nothing*, not a non-existing object.
+
+`undefined` is a value that has not been assigned.
+
+Those two while similar are not used for the same purpose at all.
+
+`null` is for an empty value, undefined is a default value for `unassigned` things.
+
 ## Type Conversion
 
 ## Basic Operations
