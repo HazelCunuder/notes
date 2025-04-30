@@ -31,5 +31,22 @@ There are cases where JS fails to assume a semicolon where there really should b
 
 Unfortunately, those errors are quite hard to fix. Fortunately, they don't occur that often.
 
-> It is recommended to put semicolons at the end of each sentence regardless as it is much safer.
+    > It is recommended to put semicolons at the end of each sentence regardless as it is much safer.
 
+3. **Comments**
+
+Comments are used to describe what the code does and why it does it.
+
+They can be put anywhere within the code.
+
+    ```javascript
+    // They can be put in lines of their own
+    alert("Hi"); // Or after a statement
+
+    /* They can even
+    span multiple lines
+    */
+    alert("bye")
+    ```
+
+    > You can use `Ctrl + Shift + /` on AZERTY keyboards to add a single comment line.
