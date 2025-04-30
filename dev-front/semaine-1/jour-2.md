@@ -227,3 +227,15 @@ The function is `Boolean(value)`.
 - Division
 - Remainder
 - Exponentiation
+
+### Concatenation
+
+The ` +` operator can be used to ***merge*** (concatenate) strings together.
+
+> If any operand is a string, then the other one is converted to a string too.
+
+In the case of multiple operands, operators work one after another from left to right.
+
+    ```javascript
+    alert(2 + 2 + '1' ); // "41" and not "221"
+    ```
