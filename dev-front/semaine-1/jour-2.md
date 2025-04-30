@@ -144,6 +144,20 @@ Special values:
 - `Infinity`
 - `NaN` - NotANumber, result of an incorrect or undefined math operation.
 
+### BigInt
+
+Represents numbers too big for JS to process.
+
+### String
+
+Strings in JS must be surrounded by quotes, we can use 3 different types:
+
+- "Hello"
+- 'Hello'
+- \`Hello`
+
+The first two act the same, but Backticks are special. They allow us to embed variables and expressions into a string by wrapping them in `${...}`.
+
 ## Type Conversion
 
 ## Basic Operations
