@@ -66,3 +66,11 @@ Was introduced in June 2015, after the switch from ES5 to ES6
 Tells your browser to use the modern, stricter version of Javascript.
 
 > It ***HAS*** to be put at the very top of your .js file, otherwise it will not work
+
+### TC39
+
+TC39 (Technical Comitee N°39) is the entity that governs over ECMAScript's evolution.
+
+### ECMA-262
+
+ECMA-262 is a document that defines ECMAScript. It specifies the language syntax and the semantics of the core application programming interface, such as Array, Function, and globalThis.
