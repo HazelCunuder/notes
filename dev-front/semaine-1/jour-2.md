@@ -56,3 +56,13 @@ They can be put anywhere within the code.
     ```
 
     > You can use `Ctrl + Shift + /` on AZERTY keyboards to add a single comment line.
+
+## Javascript Ecosystem
+
+### "use strict"
+
+Was introduced in June 2015, after the switch from ES5 to ES6
+
+Tells your browser to use the modern, stricter version of Javascript.
+
+> It ***HAS*** to be put at the very top of your .js file, otherwise it will not work
