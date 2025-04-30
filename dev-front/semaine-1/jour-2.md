@@ -2,6 +2,12 @@
 
 ## Table of Content
 
+## ECMAScript vs JavaScript
+
+Javascript = ECMAScript + Environment
+
+ECMAScript is the standard that defines Javascript's punctuation.
+
 ## Code Structure
 
 ### Blocks of code
