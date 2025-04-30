@@ -178,4 +178,26 @@ Those two while similar are not used for the same purpose at all.
 
 ## Type Conversion
 
+### String Conversion
+
+Happens when we need the string form of a value.
+
+`String(value)` is the function used to convert a value to a string.
+
+### Numeric Conversion
+
+`Number(value)` is the function used to convert a value to a number.
+
+Note that this conversion only works with string containing numbers, null, and boolean. If the string isn't a valid number, or undefined, the conversion will give us `NaN`.
+
+### Boolean Conversion
+
+Boolean conversion is the simplest of the conversions.
+
+The function is `Boolean(value)`.
+
+- If a value is virtually empty, so a number 0, empty string, `null`, `undefined`, and `Nan` then it becomes `false`
+
+- Every other value becomes `true`
+
 ## Basic Operations
