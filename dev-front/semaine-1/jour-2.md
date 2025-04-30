@@ -201,3 +201,29 @@ The function is `Boolean(value)`.
 - Every other value becomes `true`
 
 ## Basic Operations
+
+### Vocabulary
+
+- **Operand**: What operators are applied to. Sometimes called "arguments" instead.
+
+- **Unary**: Only a single operand.
+
+    ```javascript
+    let x = 1;
+
+    x = -x;
+    alert( x ); // -1, unary negation was applied
+    ```
+
+- **Binary**: 2 operands.
+
+### Maths
+
+6 types:
+
+- Addition
+- Substraction
+- Multiplication
+- Division
+- Remainder
+- Exponentiation
