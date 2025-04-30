@@ -2,6 +2,15 @@
 
 ## Table of Content
 
+- [ECMAScript vs JavaScript](#ecmascript-vs-javascript)
+- [Code Structure](#code-structure)
+  - [Blocks of code](#blocks-of-code)
+- [Javascript Ecosystem](#javascript-ecosystem)
+  - ["use strict"](#use-strict)
+  - [TC39](#tc39)
+  - [ECMA-262](#ecma-262)
+  - [Current Version](#current-version)
+
 ## ECMAScript vs JavaScript
 
 Javascript = ECMAScript + Environment
