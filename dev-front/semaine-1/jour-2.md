@@ -87,3 +87,28 @@ ECMA-262 is a document that defines ECMAScript. It specifies the language syntax
 ### Current Version
 
 As of writing this document, the latest version of ECMAScript is ECMAScript 2024.
+
+## Variables
+
+Names stored data
+
+### 3 types of variables
+
+- `let` - the modern variable, commonly used today
+- `var` - the old variable, still common in older scripts, not used anymore
+- `const` - unchanging variable
+
+You put data into your variable with the `=` operator. Example `let message = "Hello"`
+
+You can now reuse that variable in our code.
+
+For readability's sake, only write one variable per lin.
+
+### Naming variables
+
+Only 2 major rules:
+
+- Only letters, digits, or `$` and `_`
+
+- First character CANNOT be a digit
+
