@@ -74,3 +74,7 @@ TC39 (Technical Comitee N°39) is the entity that governs over ECMAScript's evol
 ### ECMA-262
 
 ECMA-262 is a document that defines ECMAScript. It specifies the language syntax and the semantics of the core application programming interface, such as Array, Function, and globalThis.
+
+### Current Version
+
+As of writing this document, the latest version of ECMAScript is ECMAScript 2024.
