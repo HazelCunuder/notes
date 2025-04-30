@@ -112,3 +112,19 @@ Only 2 major rules:
 
 - First character CANNOT be a digit
 
+### Additionnal rules:
+
+- If your variable is multiple words long, use a `camelCase`. Example: `let thisIsALongVariable = "hello"`
+- There is a list of reserved words that you cannot use to define variables: [Reserved Words](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#keywords)
+- Human-readable names only
+- No abbreviations or short names, unless sure of what they are
+- Names must be concise and descriptive
+- Keep terms consistent between yourself and others (User or Visitor for example)
+
+### Constants special rules
+
+Constants are a special type of variable, as stated before, they are unchanging. Which means that you cannot reassign them, trying to do so will result in an error.
+
+Their naming convention is also slightly different, if the constant is known before the page is loaded, constants are named in fully uppercase letters and with words separated by underscores, like this: `const KNOWN_CONSTANT`. 
+
+However, if the constant is unknown before load, then conventional naming is applied.
