@@ -239,3 +239,11 @@ In the case of multiple operands, operators work one after another from left to 
     ```javascript
     alert(2 + 2 + '1' ); // "41" and not "221"
     ```
+
+### Operator precendence
+
+If an operation has multiple operators then the execution order is defined by their precendence, in other word, their priority or weight.
+
+![Operator Precendence](img/operator-precendence.png)
+
+While not in the aforementioned table, parentheses override any precedence?
