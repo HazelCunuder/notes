@@ -19,3 +19,16 @@ To see if `"string 1" > (greater than), < (lesser than), >= <= (greater/lesser o
 5. If both strings end at the same length, then they are equal. Otherwise, the longer string is greater.
 
 > **Warning**: Since Javascript uses Unicode in its internal incoding table, Capital Letters have a different value than their lowercase counterparts.
+
+### Comparison of different types
+
+When comparing different types of values, Javascript converts them all to numbers.
+
+Example:
+
+    ```javascript
+        alert( '2' > 1 ); // true, string '2' becomes a number 2
+        alert( '01' == 1 ); // true, string '01' becomes a number 1
+    ```
+
+For Boolean values, `true` becomes 1 and `false` becomes 0.
