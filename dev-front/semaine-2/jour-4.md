@@ -32,3 +32,17 @@ Example:
     ```
 
 For Boolean values, `true` becomes 1 and `false` becomes 0.
+
+### Strict Equality
+
+Regular equality checks `==` cannot tell `0` and `false` apart.
+
+Same goes for an empty string. The reason, is that since type comparison turns everything into numbers, all of the above examples return 0, hence, they are all equal in Javascript's eyes.
+
+However, there is a way for Javascript to differentiate them.
+
+`===` is a *strict* equality operator, meaning, it checks the equality without converting the types.
+
+> It also exists as a non-equality format ` !==`
+
+With the strict equality operator, different types of string will always returrn `false`.
