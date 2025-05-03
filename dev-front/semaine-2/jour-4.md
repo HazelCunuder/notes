@@ -52,3 +52,31 @@ With the strict equality operator, different types of string will always returrn
 They are both equal to one another, but not to any other value, no matter their type.
 
 > To avoid problems, do not use comparison with a value that may be `null` or `undefined`, unless you are 100% sure of chat you are doing.
+
+## Conditional branching: If and "?"
+
+### If statement
+
+Executes a block of code if the statement in `if(...)` is `true`
+
+Example:
+
+    ```javascript
+    let whiteHouse = prompt('Where is the white house located?');
+
+    if(whiteHouse = "Washington DC") alert("Correct!") ;
+    ```
+
+To execute more than one statement, use `{}` to wrap the code.
+
+> It's better to always use curly braces for readability, even with a single statement.
+
+#### Boolean conversion
+
+the if statement transforms every result into a boolean data type.
+
+#### Else, Else if
+
+An if statement can contain an `else` block that activate if the result of the original statement is `false`.
+
+`else if` is used to test multiple variants of a condition
