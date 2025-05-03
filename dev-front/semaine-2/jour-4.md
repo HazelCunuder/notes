@@ -46,3 +46,9 @@ However, there is a way for Javascript to differentiate them.
 > It also exists as a non-equality format ` !==`
 
 With the strict equality operator, different types of string will always returrn `false`.
+
+### Null and undefined
+
+They are both equal to one another, but not to any other value, no matter their type.
+
+> To avoid problems, do not use comparison with a value that may be `null` or `undefined`, unless you are 100% sure of chat you are doing.
