@@ -80,3 +80,30 @@ the if statement transforms every result into a boolean data type.
 An if statement can contain an `else` block that activate if the result of the original statement is `false`.
 
 `else if` is used to test multiple variants of a condition
+
+### Conditional Operator `?`
+
+The `?` operator allows us to assign multiple variables to a condition. It's also the only *ternary* operator in all of Javascript.
+
+Syntax:
+
+    ```javascript
+    let result = condition ? value1 : value2;
+    ```
+
+#### Multiple `?`
+
+Using multiple `?` operators can be used to return a value that depends on multiple conditions.
+
+Example:
+
+    ```javascript
+        let age = prompt('age?', 18);
+
+        let message = (age < 3) ? 'Hi, baby!' :
+            (age < 18) ? 'Hello!' :
+            (age < 100) ? 'Greetings!' :
+            'What an unusual age!';
+        
+        alert( message );
+    ```
