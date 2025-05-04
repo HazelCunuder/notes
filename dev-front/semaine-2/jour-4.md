@@ -107,3 +107,34 @@ Example:
         
         alert( message );
     ```
+
+## Logical Operators
+
+Can be used with any type of values, and output any type too.
+
+### Or `||`
+
+Or is represented with 2 vertical lines `||`.
+
+Example: ```result = a || b```
+
+While it can be used with any value type, any operand will be converted into a boolean for the evaluation.
+
+OR is mostly used within `if` statements to check if any condition is true.
+
+Example:
+
+    ```javascript
+        let hour = 12;
+        let isWeekend = true;
+
+        if (hour < 10 || hour > 18 || isWeekend) {
+          alert( 'The office is closed.' ); // it is the weekend
+        }
+    ```
+
+**How it works:**
+
+- Evaluates operands from left to right
+- Converts operands into boolean, if result is true then stop and return the og value of the operand
+- If all values are false then return the last operand.
