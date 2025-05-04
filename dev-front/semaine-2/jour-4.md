@@ -152,3 +152,14 @@ As with OR, every value can be used as an operand for AND.
 - Evaluates operands from left to right
 - Converts operands into boolean, if result is false then stop and return the og value of the operand
 - If all values are true then return the last operand.
+
+### NOT `!`
+
+NOT is represented with an exclamation mark `!`
+
+Accepts only a single argument
+
+**How it works:**
+
+- Converts the operand to boolean type
+- Returns the inverse value
