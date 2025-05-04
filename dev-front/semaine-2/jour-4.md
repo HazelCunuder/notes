@@ -138,3 +138,17 @@ Example:
 - Evaluates operands from left to right
 - Converts operands into boolean, if result is true then stop and return the og value of the operand
 - If all values are false then return the last operand.
+
+### AND `&&`
+
+It is represented by 2 ampersands ``&&`
+
+It returns true only if all values are true
+
+As with OR, every value can be used as an operand for AND.
+
+**How it works:**
+
+- Evaluates operands from left to right
+- Converts operands into boolean, if result is false then stop and return the og value of the operand
+- If all values are true then return the last operand.
