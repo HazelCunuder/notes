@@ -52,3 +52,30 @@ While a bit more complex, `for` loops are the most common type of loops.
 Any part of `for` can be omitted without errors.
 
 However, even if you don't put anything for the begin, condition, step and body, we need to keep the semicolons within the parentheses. Otherwise there will be a syntax error.
+
+## Breaking the loop
+
+Usually a loop exits when the condition becomes `false`.
+
+**But**, we can force the exit at any time using the `break` directive.
+
+`break` is useful when the condition has to be checked *in* the body.
+
+## Continue
+
+`continue` acts like a softer version of break. Instead of stopping the loop entirely, it stops the current iteration and tries to start a new one.
+
+It can be useful to skip some unwanted iterations, like only displaying odd numbers.
+
+Like this:
+
+    ```javascript
+        for (let i = O; i < 10; i++) {
+
+            // if true, skip the body
+            if (i % 2 == 0) continue;
+
+        alert(i);
+        }
+    ```
+> `break` and `continue` aren't compatible with the ternary operator `?`
