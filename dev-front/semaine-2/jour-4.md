@@ -202,3 +202,14 @@ Example:
         // shows the first defined value:
         alert(firstName ?? lastName ?? nickName ?? "Anonymous"); // Supercoder
     ```
+
+### Comparison with `||`
+
+Both can be used in the same way, however there is a key difference:
+
+- `||` returns the first `true` value
+- `??` returns the first `defined` value
+
+It means that `||` doesn't make a difference between, 0, null/undefined, false or an empty string. For that operator, those are all the same, hence they will only get the first `true` argument.
+
+However, for default values, wee only want them if the value is `null` or `undefined` so `??` is more suited for assigining default values.
