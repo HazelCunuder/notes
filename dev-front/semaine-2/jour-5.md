@@ -6,7 +6,7 @@
 
 Loops are a way to repeat the same code multiple times.
 
-## `while` loops
+### `while` loops
 
 While loops repeat the code while the `condition` is `true`.
 
@@ -22,13 +22,13 @@ An execution of a loop body is called an iteration.
 
 Any expression or variable can be a loop expression the condition is converted into a boolean type by `while (...)`
 
-## `do while` loops
+### `do while` loops
 
 The condition check can be put below the loop body with `do while`.
 
 > Only to be used when the body of the loop has to be executed at least once, no matter the status of the condition.  `while(...) {}` is still the preffered form.
 
-## `for` loops
+### `for` loops
 
 Syntax:
 
@@ -53,7 +53,7 @@ Any part of `for` can be omitted without errors.
 
 However, even if you don't put anything for the begin, condition, step and body, we need to keep the semicolons within the parentheses. Otherwise there will be a syntax error.
 
-## Breaking the loop
+### Breaking the loop
 
 Usually a loop exits when the condition becomes `false`.
 
@@ -61,7 +61,7 @@ Usually a loop exits when the condition becomes `false`.
 
 `break` is useful when the condition has to be checked *in* the body.
 
-## Continue
+### Continue
 
 `continue` acts like a softer version of break. Instead of stopping the loop entirely, it stops the current iteration and tries to start a new one.
 
@@ -79,3 +79,9 @@ Like this:
         }
     ```
 > `break` and `continue` aren't compatible with the ternary operator `?`
+
+### Labels
+
+A label is an id with a colon ***before*** the loop: `labelName: for (...) {}`
+
+When using ither `break` or `continue` followed by a label, it looks upwards for the corresponding label and either breaks out of the loop or ro the next iteration of the labelled loop.
