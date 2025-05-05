@@ -17,6 +17,9 @@
   - [Or `||`](#or-)
   - [AND `&&`](#and-)
   - [NOT ` !`](#not)
+- [Nullish Coalescing operator `??`](#nullish-coalescing-operator-)
+  - [Comparison with `||`](#comparison-with-)
+  - [Using `??` with `&&` or `||`](#using--with--or-)
 
 ## Comparisons
 
