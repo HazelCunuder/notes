@@ -46,3 +46,9 @@ Let's break it down together:
 - body: Runs as long as condition is `true`
 
 While a bit more complex, `for` loops are the most common type of loops.
+
+### Skipping parts
+
+Any part of `for` can be omitted without errors.
+
+However, even if you don't put anything for the begin, condition, step and body, we need to keep the semicolons within the parentheses. Otherwise there will be a syntax error.
