@@ -2,7 +2,21 @@
 
 ## Table of Content
 
-- Comparisons
+- [Comparisons](#comparisons)
+  - [String comparison](#string-comparison)
+  - [Comparison of different types](#comparison-of-different-types)
+  - [Strict Equality](#strict-equality)
+  - [Null and undefined](#null-and-undefined)
+- [Conditional branching: If and "?"](#conditional-branching-if-and-)
+  - [If statement](#if-statement)
+    - [Boolean conversion](#boolean-conversion)
+    - [Else, Else if](#else-else-if)
+  - [Conditional Operator `?`](#conditional-operator-)
+    - [Multiple `?`](#multiple-)
+- [Logical Operators](#logical-operators)
+  - [Or `||`](#or-)
+  - [AND `&&`](#and-)
+  - [NOT ` !`](#not)
 
 ## Comparisons
 
@@ -163,3 +177,28 @@ Accepts only a single argument
 
 - Converts the operand to boolean type
 - Returns the inverse value
+
+## Nullish Coalescing operator `??`
+
+Written as 2 question marks `??`
+
+Treats `null` and `undefined` similarly.
+
+`??` returns the first argument if it's not `null/undefined`. Otherwise, the 2nd one.
+
+`result = a ?? b` is just a nicer way of writing `result = (a !== null && a !== undefined) ? a : b;`, but they do the exact same thing.
+
+`??` is used to set default values.
+
+It can also be used to select the first defined value in a list.
+
+Example:
+
+    ```javascript
+        let firstName = null;
+        let lastName = null;
+        let nickName = "Supercoder";
+
+        // shows the first defined value:
+        alert(firstName ?? lastName ?? nickName ?? "Anonymous"); // Supercoder
+    ```
