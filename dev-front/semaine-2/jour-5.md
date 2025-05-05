@@ -27,3 +27,22 @@ Any expression or variable can be a loop expression the condition is converted i
 The condition check can be put below the loop body with `do while`.
 
 > Only to be used when the body of the loop has to be executed at least once, no matter the status of the condition.  `while(...) {}` is still the preffered form.
+
+## `for` loops
+
+Syntax:
+
+    ```javascript
+        for (begin; condition; step) {
+        // ... loop body ...
+        }
+    ```
+
+Let's break it down together:
+
+- begin: Executes the loop body once upon entering the loop
+- condition: Checks if condition is met, if condition = `false` then stop the loop.
+- step: Executes after the body on each iteration
+- body: Runs as long as condition is `true`
+
+While a bit more complex, `for` loops are the most common type of loops.
