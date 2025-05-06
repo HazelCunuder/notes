@@ -175,3 +175,13 @@ A function declaration is written like so:
     ```
 
 Just need to change the function to modify all of its instances.
+
+### Local and Outer Variables
+
+**Local variables**: Variable declared inside a function, only usable within said function
+
+**Outer variables**: Variable declared outside of a function, can be used within any function. It can also be modified by the function.
+
+Outer Variable is only used if there's no local one.
+
+Local Variable > Outer Variable.
