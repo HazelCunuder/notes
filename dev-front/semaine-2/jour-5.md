@@ -120,4 +120,8 @@ If there is no match, then `default` is executed (if a default had been set).
 
 > If there is no `break` then the code keep executing itself until the end of the `switch` without checking any following `case`.
 
+### Grouping of "case"
 
+`case` that share the same code can be grouped.
+
+The abilityu to group `case` is a byproduct of the above mentionned quirk with the lack of `break`.
