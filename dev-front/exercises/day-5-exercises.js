@@ -50,3 +50,53 @@ let c = a, a = b, b = c;
     let a = b, b = a
 */
 
+// Using conditional branching 
+
+// Exercise 1 - Ask user their age + show if adult or minor
+
+let age = prompt("How old are you?", "");
+
+if (age >= 18) {
+    alert("You're an adult");
+} else {
+    alert("You're a minor");
+}
+
+// Exercise 2 - Ask user for number + show if odd or even
+
+let n = prompt("give me a number", 0);
+n = parseInt(n);
+
+if (n % 2 == 0) {
+    alert("Even");
+} else {
+    alert("Odd");
+}
+
+// Exercise 3 - Ask for a grade + show result depending on grade
+
+let grade = prompt("Enter a Grade between 0-20", 0);
+grade = parseInt(grade);
+
+if (grade >= 0 && grade <= 9) {
+    alert("Fail");
+} else if (grade >= 10 && grade <=13) {
+    alert("Barely made it");
+} else if (grade >= 14 && grade <= 16) {
+    alert("Good!");
+} else if (grade >= 17 && grade <=20) {
+    alert("Excellent!");
+} else {
+    alert("Invalid grade");
+}
+
+// Exercise 4 - Prompt a year + Show if leap year or not
+
+let leapYear = prompt("Insert a year", 0);
+leapYear = parseInt(leapYear);
+
+if (leapYear % 4 == 0 && (!(leapYear % 100 == 0) || leapYear % 400 == 0)) {
+    alert("Leap Year");
+} else {
+    alert("Non-leap Year");
+}
