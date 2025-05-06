@@ -125,3 +125,30 @@ If there is no match, then `default` is executed (if a default had been set).
 `case` that share the same code can be grouped.
 
 The abilityu to group `case` is a byproduct of the above mentionned quirk with the lack of `break`.
+
+### Type Matters
+
+**Important**: The equality check is ***always strict***. The values ***have*** to be the same type to match
+
+Example:
+
+    ```javascript
+        let example = prompt("Enter a number")
+
+        switch (example) {
+            case '0':
+            case '1':
+                alert ('One or Zero');
+                break;
+
+            case '2':
+                alert ('Two');
+                break;
+
+            case 3:
+                alert ("Three"); // However, this never executes since we asked for a string, which isn't the same type as a number
+                break;
+                
+            default:
+                alert ("Unknown number");
+        }
