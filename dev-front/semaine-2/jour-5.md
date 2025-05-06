@@ -161,3 +161,17 @@ We often need to perform the same action in many places in a script.
 Functions are the main building blocks of the program. They can be used to call the same code without having to repeat it.
 
 `alert`, `prompt` and `confirm` are examples of built-in functions, but we can create our own.
+
+### Function Declaration
+
+Create function --> use func declaration
+
+A function declaration is written like so:
+
+    ```javascript
+        function nameOfFunction(parameter1, parameter2, ..., parameterN) {
+            //body
+        }
+    ```
+
+Just need to change the function to modify all of its instances.
