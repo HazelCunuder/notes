@@ -235,3 +235,9 @@ Common agreed function prefix:
 Convention makes reading easier and code more understandable
 
 > One function = **ONE ACTION**
+
+### Function == Comments
+
+If big function --> break it down into smaller functions
+
+Smaller functions --> Easier to test and debug --> Also acts as comment
