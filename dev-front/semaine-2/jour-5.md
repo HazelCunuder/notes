@@ -202,7 +202,7 @@ Default value can be any data ty pe, or even another function.
 
 #### Alternatives default parameters
 
-You can assign default values later in the function. 
+You can assign default values later in the function.
 
 There are multiple ways to do it:
 
@@ -219,3 +219,19 @@ function: can call value back into it
 When function reach `return` --> Function stop --> value returns to calling code.
 
 Can be multiple `return` in a single function. Can be `return` without value --> function exits.
+
+### Naming convention
+
+Function = action --> Action = verb
+
+Common agreed function prefix:
+
+- show... --> Show something
+- get... --> Get a value
+- calc... --> Calculate something
+- create... --> Creates something
+- check... --> Checks something (returns true or false)
+
+Convention makes reading easier and code more understandable
+
+> One function = **ONE ACTION**
