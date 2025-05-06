@@ -185,3 +185,27 @@ Just need to change the function to modify all of its instances.
 Outer Variable is only used if there's no local one.
 
 Local Variable > Outer Variable.
+
+### Parameters
+
+Parameter = Variable inside the parentheses in the function declaration
+
+Argument = Value passedd to the function when it's called.
+
+### Default values
+
+If argument not provided --> value = `undefined`
+
+We can set-up default values by using the assignement operator in the function declaration.
+
+Default value can be any data ty pe, or even another function.
+
+#### Alternatives default parameters
+
+You can assign default values later in the function. 
+
+There are multiple ways to do it:
+
+- Compare with `undefined`
+- use the `OR` operator
+- Use nullish operator --> better if "falsy" values like 0 need to be accepted
