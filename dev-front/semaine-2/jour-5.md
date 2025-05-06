@@ -209,3 +209,13 @@ There are multiple ways to do it:
 - Compare with `undefined`
 - use the `OR` operator
 - Use nullish operator --> better if "falsy" values like 0 need to be accepted
+
+### Returning a value
+
+function: can call value back into it
+
+`return` can be placed anywhere in the function.
+
+When function reach `return` --> Function stop --> value returns to calling code.
+
+Can be multiple `return` in a single function. Can be `return` without value --> function exits.
