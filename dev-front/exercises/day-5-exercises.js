@@ -100,3 +100,64 @@ if (leapYear % 4 == 0 && (!(leapYear % 100 == 0) || leapYear % 400 == 0)) {
 } else {
     alert("Non-leap Year");
 }
+
+// Use loops
+
+// Exercise 1 - Show number from 1 to 10 with: while, do while and for loops
+
+let n = 1;
+
+while (n <= 10) {
+    alert(n);
+    n++;
+}
+
+let n = 1
+
+do {
+    alert(n);
+    n++;
+} while (n <= 10);
+
+for (let n = 1; n <= 10; n++) {
+    alert(n);
+}
+
+// Exercise 2 - Prompt user for a number + show even numbers from 0 to prompted number
+
+let i = prompt("Pick a number","");
+i = parseInt(i);
+
+for (x = 0; x <= i; x++) {
+
+    if (!(x % 2 == 0)) continue;
+
+    alert(x);
+}
+
+// Exercise 3 - Prompt user for a number + show times table of number
+
+let number = prompt("Enter a number to see its multiplication table:", "");
+number = parseInt(number);
+
+if (!isNaN(number)) {
+    alert(`Multiplication table for ${number}:`);
+    for (let i = 1; i <= 10; i++) {
+        let result = number * i;
+        alert(`${number} x ${i} = ${result}`);
+    }
+} else {
+    alert("Invalid input. Please enter a valid number.");
+}
+
+// Exercise 4 - Take exercise 2 and put it into a function
+
+function showEvenNumbers(limit) {
+    for (let x = 0; x <= limit; x++) {
+
+        if (!(x % 2 == 0)) continue;
+        alert(x);
+    }
+}
+
+showEvenNumbers(50)
