@@ -19,3 +19,41 @@ if(officialName == "ECMAScript") {
 } else {
     alert("You don't know? ECMAScript?!");
 }
+
+// Task 3
+
+let value = prompt("Write a number", "")
+
+if(value > 0) {
+    alert(1);
+} else if (value < 0) {
+    alert(-1);
+} else {
+    alert(0)
+}
+
+// Task 4
+
+// Rewrite the following script by replacing if with ?
+
+let result;
+
+if (a + b < 4) {
+  result = 'Below';
+} else {
+  result = 'Over';
+}
+
+// Rewrite
+
+let result = (a + b < 4) ? "Below" : "Over";
+
+// Task 5
+
+let message;
+
+let message = (login == "Employee") ? "Hello" :
+              (login == "Director") ? "Greetings" :
+              (login == "") ? "No login" :
+              "";
+            
