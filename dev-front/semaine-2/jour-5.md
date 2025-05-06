@@ -85,3 +85,39 @@ Like this:
 A label is an id with a colon ***before*** the loop: `labelName: for (...) {}`
 
 When using ither `break` or `continue` followed by a label, it looks upwards for the corresponding label and either breaks out of the loop or ro the next iteration of the labelled loop.
+
+## Switch statement
+
+`switch` statements can replace multiple `if` checks.
+
+It's a better way to compare values with multiple variants than multiple `else if` statements one after another.
+
+### Syntax
+
+A `switch` statement is built with one or more `case` blocks with an optional default one.
+
+    ```javascript
+        switch(x) {
+          case 'value1':  // if (x === 'value1')
+            ...
+            [break]
+
+          case 'value2':  // if (x === 'value2')
+            ...
+            [break]
+
+          default:
+            ...
+            [break]
+        }
+    ```
+
+A `case` statement checks for a strict equality for the value.
+
+If the equality is found, `switch` starts to execute the code starting from the matching `case` until either the nearest `break` or the end of the `switch`.
+
+If there is no match, then `default` is executed (if a default had been set).
+
+> If there is no `break` then the code keep executing itself until the end of the `switch` without checking any following `case`.
+
+
