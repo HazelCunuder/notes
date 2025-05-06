@@ -271,3 +271,30 @@ Functions created to be re-used later.
 | **Usage in Conditional Blocks** | Not available outside the block in which it's declared | Can be assigned conditionally and used outside the block |
 | **Readability & Style** | More prominent and easier to spot in code | Less visually distinct; can be inline or anonymous |
 | **Typical Use Case** | When defining reusable functions with global/block visibility | When defining functions conditionally or inline |
+
+## Arrow Functions
+
+Syntax:
+
+    ```javascript
+        let func = (arg 1, arg2, ..., argN) => expression;
+    ```
+
+Creates function that accepts arguments then evaluates expression, then return the results
+
+Same as:
+
+    ```javascript
+        let func = function(arg1, arg2, ..., argN) {
+            return expression
+        }
+    ```
+It's simpler to use arrow function.
+
+If 1 argument --> No parentheses needed
+
+If 0 arguments --> Need parentheses
+
+Arrow functions can be used like Func Expressions
+
+> useful for one-line actions.
