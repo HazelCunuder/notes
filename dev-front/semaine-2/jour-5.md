@@ -298,3 +298,9 @@ If 0 arguments --> Need parentheses
 Arrow functions can be used like Func Expressions
 
 > useful for one-line actions.
+
+### Multiline arrow functions
+
+Use `{}` to enclose the function. 
+
+> Needs a `return` to work
