@@ -10,7 +10,7 @@ alert("Hello World");
 
 // Exercise 2 - Create Age variable + show it
 
-let age;
+let age = 22;
 
 alert(age);
 
@@ -24,10 +24,29 @@ alert(age);
 
 let circleRadius = prompt("What's the radius of the circle?","");
 
-alert(circleRadius);
+let circlePerimeter = 2 * Math.PI * parseFloat(circleRadius); 
+
+alert(circlePerimeter);
+
+// Corrected with Gemini was:
+
+/*
+    let circleRadius = prompt("What's the radius of the circle?","");
+
+    alert(circleRadius);
+*/
 
 // Exercise 5 - Set 2 prompted values in 2 variables + reverse said variables
 
 let a = prompt("value a", ""), b = prompt("value b");
 
-let a = b, b = a
+let c = a, a = b, b = c;
+
+// Corrected with Gemini, was:
+
+/*
+    let a = prompt("value a", ""), b = prompt("value b");
+
+    let a = b, b = a
+*/
+
