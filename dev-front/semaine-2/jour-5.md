@@ -255,3 +255,19 @@ in function expression --> you can forget name.
 In Javascript function = value
 
 We can copy it too by using the asignment operator to asign it to another variable.
+
+### Callback functions
+
+Functions created to be re-used later.
+
+### Func Expression vs Func Declaration
+
+| Feature | Function Declaration | Function Expression |
+| --- | :---: | :---: |
+| **Syntax** | `function sum(a, b) { ... }` | `let sum = function(a, b) { ... };` |
+| **Creation Timing** | Created at script loading (before code execution) | Created at runtime when execution reaches the expression |
+| **Hoisting** | Yes — can be called before it's defined in code | No — cannot be used before it's defined |
+| **Scope in Blocks (Strict Mode)** | Visible throughout the block where it's defined | Visible only after the line where it's defined |
+| **Usage in Conditional Blocks** | Not available outside the block in which it's declared | Can be assigned conditionally and used outside the block |
+| **Readability & Style** | More prominent and easier to spot in code | Less visually distinct; can be inline or anonymous |
+| **Typical Use Case** | When defining reusable functions with global/block visibility | When defining functions conditionally or inline |
