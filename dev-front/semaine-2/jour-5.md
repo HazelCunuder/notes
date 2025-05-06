@@ -241,3 +241,17 @@ Convention makes reading easier and code more understandable
 If big function --> break it down into smaller functions
 
 Smaller functions --> Easier to test and debug --> Also acts as comment
+
+## Function Expression
+
+Function --> Special value
+
+Func Expression --> syntax --> create a new function in an expression
+
+in function expression --> you can forget name.
+
+### Function is a value
+
+In Javascript function = value
+
+We can copy it too by using the asignment operator to asign it to another variable.
