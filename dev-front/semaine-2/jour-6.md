@@ -122,6 +122,10 @@ Can clone most data types and supports circular references.
 
 ## Garbage Collection
 
+Clean memory
+
+Low priority process
+
 ### Reachability
 
 Main concept of memory management in js.
@@ -205,3 +209,34 @@ Value of `this` --> evaluated at run-time, depending on context.
 Arrow function have no `this`.
 
 If we try to use `this` in an arrow function, it's taken from the outer "normal" function.
+
+## Arrays
+
+Arrays == Ordered list of items --> Can be any types of data
+
+### Creating Arrays
+
+- Using array literals (Most common way):
+
+```javascript
+  let mixed = [1, "hello", true, null, {key: value}];
+```
+
+- using the Array constructor (rarer)
+
+```javascript
+let mixed = new Array(value1, value2, .. valueN);
+```
+
+### Access elements
+
+We can use `at` to access a specific element in the Array.
+
+Syntax: `arr.att(i)`
+
+If i >= 0 then go to corresponding index element
+if i < 0 then go to corresponding element in reverse order
+
+### Length
+
+
