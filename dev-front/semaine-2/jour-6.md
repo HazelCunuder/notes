@@ -239,4 +239,42 @@ if i < 0 then go to corresponding element in reverse order
 
 ### Length
 
+`length` --> writtable, if increase, nothing happen, but if decrease, delete values in array, then if increase again, values won't reappear.
 
+### Common methods
+
+- `push()`: Adds one or more element to the end of the array and returns new length.
+
+```javascript
+let fruits = ["apple", "banana"];
+fruits.push("orange");
+console.log(fruits); // Output: ["apple", "banana", "orange"]
+```
+
+- `pop()`: Remove last ellement from array and return it
+
+```javascript
+let fruits = ["apple", "banana", "orange"];
+let lastFruit = fruits.pop();
+console.log(fruits);     // Output: ["apple", "banana"]
+console.log(lastFruit); // Output: orange
+```
+
+- `shift`: Remove first element from array and return it
+
+```javascript
+let fruits = ["apple", "banana"];
+let firstFruit = fruits.shift();
+console.log(fruits);      // Output: ["banana"]
+console.log(firstFruit);  // Output: apple
+```
+
+- `unshift()`: Add one or more elements to the start of the array, and return new length
+
+```javascript
+let fruits = ["banana"];
+fruits.unshift("apple");
+console.log(fruits); // Output: ["apple", "banana"]
+```
+
+`push` and `unshift` can add multiple elements at once.
