@@ -278,3 +278,24 @@ console.log(fruits); // Output: ["apple", "banana"]
 ```
 
 `push` and `unshift` can add multiple elements at once.
+
+### Iteration through arrays
+
+We can loop through arrays in multiple ways:
+
+- For loops - Oldest way
+
+```javascript
+let numbers = [10, 20, 30];
+for (let i = 0; i < numbers.length; i++) {
+    console.log(numbers[i]); // Output: 10, 20, 30
+}
+```
+
+- for of - more modern, and used for simple iterations
+
+```javascript
+let colors = ["red", "green", "blue"];
+for (let color of colors) { // gives access to value, not number of element.
+    console.log(color);
+}
