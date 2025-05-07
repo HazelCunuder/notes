@@ -148,3 +148,38 @@ It's algorithm is "Mark and Sweep":
 - Visits marked objects and marks their references
 - Continue until all reachable from roots references are visited
 - Delete unvisited objects.
+
+## Object Method, "this"
+
+Object = entities of the real world.
+
+In real world: entities can act.
+
+Action in js = function in object properties
+
+### Examples Method
+
+Teach user to say hello:
+
+```javascript
+    let user = {
+        name: "John",
+        age: 30
+    };
+
+    user.sayHi = function() {
+      alert("Hello!");
+    };
+
+    user.sayHi(); // Hello!
+```
+
+Here: func expression --> Create function and assign it to property `User.sayHi`
+
+Then call function.
+
+> Object-oriented programming = using object to represent entities
+
+#### Method shorthand
+
+You can omit `function` just write the function directly when using object literal.
