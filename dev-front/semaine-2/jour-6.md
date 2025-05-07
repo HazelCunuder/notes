@@ -299,3 +299,27 @@ let colors = ["red", "green", "blue"];
 for (let color of colors) { // gives access to value, not number of element.
     console.log(color);
 }
+```
+
+### Multidimensional Arrays
+
+Arrays --> Can contain other arrays
+
+It looks like this:
+
+```javascript
+let arr = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+];
+console.log(matrix [0][1]); // 2, value 1 of array 0
+```
+
+### Compare Arrays
+
+DON'T USE `==`!
+
+Since Arrays are treated as any other object `==`, Javascript doesn't handle comparisons well.
+
+Better to not use any operators at all and use loops or iteration methods
