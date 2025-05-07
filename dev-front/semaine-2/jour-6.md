@@ -119,3 +119,32 @@ To do it, we need "structured cloning".
 Can clone most data types and supports circular references.
 
 > If object has function property then `structuredClone(object)` does not work.
+
+## Garbage Collection
+
+### Reachability
+
+Main concept of memory management in js.
+
+"Reachable" values = accessible or usable --> guaranteed to be stored
+
+Default reachable values (called *roots*):
+
+- Current executing function + its variables and parameters
+- Functions in nested calls
+- Global variables
+- Internal ones
+
+Any other value is reachable if accessible from root by reference.
+
+> Only incoming references make an object reachable
+
+### Internal Algorithm
+
+It's algorithm is "Mark and Sweep":
+
+- Takes roots and remembers them
+- Visits and remembers all references from roots
+- Visits marked objects and marks their references
+- Continue until all reachable from roots references are visited
+- Delete unvisited objects.
