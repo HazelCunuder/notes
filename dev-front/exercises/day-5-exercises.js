@@ -20,7 +20,7 @@ let age = prompt("How old are you?", "");
 
 alert(age);
 
-// Exercise 4 - Ask user to prompt circle radius + show it
+// Exercise 4 - Ask user to prompt circle radius + show perimeter
 
 let circleRadius = prompt("What's the radius of the circle?","");
 
