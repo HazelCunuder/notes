@@ -183,3 +183,25 @@ Then call function.
 #### Method shorthand
 
 You can omit `function` just write the function directly when using object literal.
+
+### "this" in methods
+
+Object method --> need access to info stored in object
+
+`this` can be used to access the object. (value is object "before dot")
+
+Can use outer variable but unreliable if outer variable changes.
+
+### "this" is not bound
+
+Unlike in most languages, "this" in javascript can be used in any function, even if not a method of object;
+
+Value of `this` --> evaluated at run-time, depending on context.
+
+> Calling `this` without object == undefined
+
+### Arrow functions have no `this`
+
+Arrow function have no `this`.
+
+If we try to use `this` in an arrow function, it's taken from the outer "normal" function.
