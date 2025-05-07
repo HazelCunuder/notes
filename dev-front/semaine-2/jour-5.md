@@ -2,6 +2,34 @@
 
 ## Table of Content
 
+- [Loops: while and for](#loops-while-and-for)
+  - [`while` loops](#while-loops)
+  - [`do while` loops](#do-while-loops)
+  - [`for` loops](#for-loops)
+  - [Skipping parts](#skipping-parts)
+  - [Breaking the loop](#breaking-the-loop)
+  - [Continue](#continue)
+  - [Labels](#labels)
+- [Switch statement](#switch-statement)
+  - [Syntax](#syntax)
+  - [Grouping of "case"](#grouping-of-case)
+  - [Type Matters](#type-matters)
+- [Functions](#functions)
+  - [Function Declaration](#function-declaration)
+  - [Local and Outer Variables](#local-and-outer-variables)
+  - [Parameters](#parameters)
+  - [Default values](#default-values)
+    - [Alternatives default parameters](#alternatives-default-parameters)
+  - [Returning a value](#returning-a-value)
+  - [Naming convention](#naming-convention)
+  - [Function == Comments](#function--comments)
+- [Function Expression](#function-expression)
+  - [Function is a value](#function-is-a-value)
+  - [Callback functions](#callback-functions)
+  - [Func Expression vs Func Declaration](#func-expression-vs-func-declaration)
+- [Arrow Functions](#arrow-functions)
+  - [Multiline arrow functions](#multiline-arrow-functions)
+
 ## Loops: while and for
 
 Loops are a way to repeat the same code multiple times.
@@ -301,6 +329,6 @@ Arrow functions can be used like Func Expressions
 
 ### Multiline arrow functions
 
-Use `{}` to enclose the function. 
+Use `{}` to enclose the function.
 
 > Needs a `return` to work
