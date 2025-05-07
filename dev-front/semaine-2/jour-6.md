@@ -98,3 +98,24 @@ alert( a == b ); // false
 To duplicate an object, we can use `Object.assign`
 
 Syntax: `Object.assign(destination, ...sources)`
+
+destination = target object
+arguments aster comma = source
+
+Copies properties of all source objects into the destination then return result.
+
+Can be used to copy into empty objects.
+
+### Nested cloning
+
+Properties can reference other objects
+
+To do it, we need "structured cloning".
+
+#### Structured Cloning
+
+`structuredClone(object)` clones object with all nested properties.
+
+Can clone most data types and supports circular references.
+
+> If object has function property then `structuredClone(object)` does not work.
