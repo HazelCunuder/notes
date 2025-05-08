@@ -383,3 +383,9 @@ numbers.forEach(number => console.log(number * 2));
 - `split/join` --> convert string to array, and vice versa
 
 - `reduce/reduceRight(function, initial)` --> Calc value over the array
+
+### Array.isArray
+
+`typeof()` doesn't differenciate Arrays from objects.
+
+`Array.isArray()` exists to check if the value is indeed an array or not.
