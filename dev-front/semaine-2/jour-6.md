@@ -323,3 +323,49 @@ DON'T USE `==`!
 Since Arrays are treated as any other object `==`, Javascript doesn't handle comparisons well.
 
 Better to not use any operators at all and use loops or iteration methods
+
+## Array Methods
+
+- `slice()`: Returns a new array containing a portion of the original array. It takes a start and an optional end index.
+
+```javascript
+let numbers = [1, 2, 3, 4, 5];
+let subArray = numbers.slice(1, 4); // Elements from index 1 up to (but not including) 4
+console.log(subArray); // Output: [2, 3, 4]
+```
+
+- `splice()`: Changes array's content. Can add, remove, replace elements
+
+```javascript
+let fruits = ["apple", "banana", "orange"];
+fruits.splice(1, 1, "kiwi"); // Start at index 1, remove 1 element, add "kiwi"
+console.log(fruits);       // Output: ["apple", "kiwi", "orange"]
+```
+
+### For each
+
+Functional approach --> allows to run a function for each element of the array.
+
+```javascript
+let numbers = [1, 2, 3];
+numbers.forEach(function(number) {
+    console.log(number * 2);
+});
+
+// With arrow function (more concise):
+numbers.forEach(number => console.log(number * 2));
+```
+
+### Searching in an array
+
+- `indexOf()` --> Returns first index where given element can be found. Outputs -1 if element not present.
+
+- `lastIndexOf()` --> Like previous, but shows last index instead of first.
+
+- `includes()` --> looks for item by its index, returns true if found.
+
+- `find(fn)` --> Find an object with a condition
+
+- `findIndex()` && `findIndexOf()` --> Similar to indexOf and lastIndexOf but return index of element, rather than the element.
+
+- `filter()` --> returns array of matching elements
