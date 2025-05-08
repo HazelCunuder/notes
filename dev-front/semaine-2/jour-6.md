@@ -369,3 +369,17 @@ numbers.forEach(number => console.log(number * 2));
 - `findIndex()` && `findIndexOf()` --> Similar to indexOf and lastIndexOf but return index of element, rather than the element.
 
 - `filter()` --> returns array of matching elements
+
+### Transform array
+
+- `map()` --> Calls function for each element --> Returns result (Most useful and most used)
+
+- `sort(fn)` --> Sorts array *in place* --> changes the element order, and return the sorted array
+
+> Items are sorted as string by default.
+
+- `reverse()` --> reverses order of array
+
+- `split/join` --> convert string to array, and vice versa
+
+- `reduce/reduceRight(function, initial)` --> Calc value over the array
