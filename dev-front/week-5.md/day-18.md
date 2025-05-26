@@ -61,3 +61,10 @@ You can then use `new MyClass()` to create new Object with the listed methods.
 Once written, it's very difficult to change it.
 
 - You can create objects from it.
+
+### Abstract Classes
+
+- Cannot be used to create an object
+- Act as as a base class for other classes
+
+Defined with the `abstract` keyword.
