@@ -28,3 +28,26 @@
 ## Instances
 
 An instance is an object, that was created from a class or a constructor function. In other words, it's like an unique copy of a blueprint for a house.
+
+## Class
+
+In JS, a class is a type of function.
+
+### Syntax
+
+```javascript
+class MyClass {
+  // class methods
+  constructor() { ... }
+  method1() { ... }
+  method2() { ... }
+  method3() { ... }
+  ...
+}
+```
+
+You can then use `new MyClass()` to create new Object with the listed methods.
+
+`constructor ()` called automatically by `new`.
+
+> NO COMMA BETWEEN CLASS METHODS!
