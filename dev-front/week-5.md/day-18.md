@@ -11,9 +11,20 @@
 - Reduce complexity, and allow for efficient design and implementation.
 - Hides technical complexity of systems.
 
-**Advantages**:
+### Advantages
 
 - Helps user avoid writing low level code
 - Avoid code duplication
 - Change internal implementation of a class without affecting user
 - Increase security of API or Program -> only provide imporatnt details for user.
+- Reuse code easily
+
+### How to use it
+
+- Function
+- Objects and methods
+- Classes and Encapsulation
+
+## Instances
+
+
