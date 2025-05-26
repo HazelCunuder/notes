@@ -105,3 +105,11 @@ Defined with the `abstract` keyword.
 - Encapsulate behavior: Keep related data together within the object.
 - Provide an interface: Define how you interact with the object.
 - Reusability: Once methode is defined, all instances can use that method.
+
+### Getters - Setters
+
+Getters and Setters are special types of methods used to control access to an object's properties. They are an example of encapsulation (which we'll cover next).
+
+- Getter (Accessor Method): A getter is a method used to retrieve (get) the value of a property. It often provides a read-only view of a property or performs some calculation before returning a value. It's like asking the house for its address.
+
+- Setter (Mutator Method): A setter is a method used to modify (set) the value of a property. Setters often include logic to validate the new value before assigning it, ensuring data integrity. It's like telling the house to repaint(newColor).
