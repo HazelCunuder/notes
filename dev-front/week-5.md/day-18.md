@@ -82,3 +82,8 @@ Defined with the `abstract` keyword.
 - Each instance as its own attributes.
 - Can be different types
 - Accessed through methods.
+
+### Methods
+
+- Functions inside class or object.
+- Define behaviors or actions an object can perform.
