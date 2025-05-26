@@ -27,4 +27,4 @@
 
 ## Instances
 
-
+An instance is an object, that was created from a class or a constructor function. In other words, it's like an unique copy of a blueprint for a house.
