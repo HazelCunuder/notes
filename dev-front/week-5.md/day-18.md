@@ -68,3 +68,17 @@ Once written, it's very difficult to change it.
 - Act as as a base class for other classes
 
 Defined with the `abstract` keyword.
+
+### Constructor method
+
+- Method of a class used for creating and initializing objects instances of that class.
+
+- Assign^$ù memory to the correct object
+
+### Attributes
+
+- Represent the What of an object.
+- Variables
+- Each instance as its own attributes.
+- Can be different types
+- Accessed through methods.
