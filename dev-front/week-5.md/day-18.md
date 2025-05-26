@@ -87,3 +87,21 @@ Defined with the `abstract` keyword.
 
 - Functions inside class or object.
 - Define behaviors or actions an object can perform.
+
+### Differences between Method and Function
+
+- **Function**
+  - Standalone block of code.
+  - Can be called independently
+  - Doesn't belong to a class or an object
+
+- **Method***
+  - Associated with an object
+  - Operates on data of the object.
+  - Always used in the context of an object or class.
+
+### Utility
+
+- Encapsulate behavior: Keep related data together within the object.
+- Provide an interface: Define how you interact with the object.
+- Reusability: Once methode is defined, all instances can use that method.
