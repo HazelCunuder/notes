@@ -51,3 +51,13 @@ You can then use `new MyClass()` to create new Object with the listed methods.
 `constructor ()` called automatically by `new`.
 
 > NO COMMA BETWEEN CLASS METHODS!
+
+### Concrete Class
+
+- Can't be extended by another class
+- Has all its methods defined already.
+- Can be used to implement interfaces and extend abstract classes.
+
+Once written, it's very difficult to change it.
+
+- You can create objects from it.
