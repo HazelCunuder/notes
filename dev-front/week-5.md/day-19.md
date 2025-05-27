@@ -47,3 +47,31 @@
 | **Inheritance** | A class can only inherit from **one** abstract class. | A class can implement **multiple** interfaces. |
 | **Purpose** | Provides a common base for related classes, offering partial implementation and forcing subclasses to complete it. Represents an "**is-a**" relationship in a hierarchy. | Defines a contract for behavior that unrelated classes can agree to fulfill. Represents a "**can-do**" or "**has-a-capability**" relationship. |
 | **Usage** | Used when you want to share code *and* define common behavior for a family of objects. | Used when you want to define a set of behaviors that diverse, possibly unrelated, classes should adhere to. |
+
+## Object Relation Principles (UML)
+
+In Object Oriented Design (visualized with UML - Unified Modeling Language), relationships describe how objects interact with one another.
+
+### What is Association
+
+- Most general type of relationship
+- Indicates that objects of one class are connected to objects of another class.
+- Can be 2 way or 1 way
+- Doesn't imply ownership of one over the other
+- Often implemented by one class making reference to object of another class as an attribute.
+
+### What is Aggregation
+
+- Specialized form of association
+- Represent "has-a" or "part-of" relationship
+- One object is "whole", one is the "part"
+- Part can exist without the whole, no strong Ownership
+- Represented in UML by hollow diamond on whole side.
+
+### What is Composition
+
+- Stronger form of Aggregation
+- Parts cannot exist independently of the whole.
+- One object is "whole", one is "part"
+- If "whole" is destroyed, "parts" are also destroyed: Strong Ownership
+- Represented in UML by solid diamond on whole side.
