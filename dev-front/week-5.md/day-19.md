@@ -75,3 +75,14 @@ In Object Oriented Design (visualized with UML - Unified Modeling Language), rel
 - One object is "whole", one is "part"
 - If "whole" is destroyed, "parts" are also destroyed: Strong Ownership
 - Represented in UML by solid diamond on whole side.
+
+## Polymorphism
+
+- Means "Many Forms".
+- Abilities of objects of different classes, to be treated as object of common type, through interface or parent class.
+
+### What is it used for?
+
+- Flexibility and Extensibility: Write more generic code that can work with a variety of objects.
+- Simplified Code: Call a common method instead of if-else statements.
+- Improve Maintainability: When adding new classes with polymorphism they do not need to be modified.
