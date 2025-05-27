@@ -136,4 +136,10 @@ See notes from day 6.
 
 ### Different keywords
 
+- `public` - accessible from anywhere
+- `private` - acessible only from within the class
+- `protected` - Acessible from within class, and its subclasses.
+
+In JS, we can use the hash sign (#) to make private class field that can only be accessed within the class.
+
 
