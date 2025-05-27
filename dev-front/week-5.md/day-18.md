@@ -113,3 +113,27 @@ Getters and Setters are special types of methods used to control access to an ob
 - Getter (Accessor Method): A getter is a method used to retrieve (get) the value of a property. It often provides a read-only view of a property or performs some calculation before returning a value. It's like asking the house for its address.
 
 - Setter (Mutator Method): A setter is a method used to modify (set) the value of a property. Setters often include logic to validate the new value before assigning it, ensuring data integrity. It's like telling the house to repaint(newColor).
+
+## Objects
+
+- Self contained unit of data.
+- Almost every data type in JS can be used as an object, from numbers to to functions.
+
+See notes from day 6.
+
+## Encapsulation
+
+- Fundamntal principle of OOP.
+  - Bundles data and methods within a single object.
+  - Restrict direct access to its components.
+
+### What is it for?
+
+- Protect data integrity by hiding it to external code.
+- Increase Modularity
+- Flexibility and Maintainability
+- Improve code organization
+
+### Different keywords
+
+
