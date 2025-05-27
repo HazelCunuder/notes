@@ -152,3 +152,9 @@ In JS, we can use the hash sign (#) to make private class field that can only be
   - **Block Scope**: Variables delcared with let or const within a block code can only be accessed within them.
   - **Class/Object Scope**: Object properties and methods are acessible to other methods in the same object.
 
+### Why is it a fundamental principle of OOP
+
+- Robust: Prevents accidental or unauthorized code modification.
+- Maintainable and Scalable : Can change the inner working of a class without interfering with the other classes.
+- Clearer Interface: Forces you to define clear methods for interacting with an object. Making code clearer for others.
+- Reduce Complexity: Only be able to know what it does and not how.
