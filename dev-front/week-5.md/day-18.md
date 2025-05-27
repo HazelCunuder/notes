@@ -142,4 +142,13 @@ See notes from day 6.
 
 In JS, we can use the hash sign (#) to make private class field that can only be accessed within the class.
 
+## Scope
+
+- Region of code where variable, function, or other identifier can be accessed.
+
+- Different types of scopes:
+  - **Global scope**: Variables in global scope can be accessed anywhere in the code.
+  - **Function Scope**: Variables declared within a function, only accessible by it.
+  - **Block Scope**: Variables delcared with let or const within a block code can only be accessed within them.
+  - **Class/Object Scope**: Object properties and methods are acessible to other methods in the same object.
 
