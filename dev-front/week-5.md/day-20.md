@@ -130,3 +130,9 @@ Local install is almost always going to be prefered for the following reasons:
 
 ## TypeScript
 
+- Strongly typed language based on javascript
+
+It offers:
+
+- Static Typing: Specify type of variables
+- Early Error Detection: Code doesn't compile if errors
