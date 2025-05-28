@@ -119,3 +119,14 @@ Local install is almost always going to be prefered for the following reasons:
 - Different rules for different projects
 - Version control: Specify version of linters, formatters and dependencies, so that people who join can see them.
 - Dependency management: Keep global environment clean and avoids conflict
+
+## Nodemon
+
+- Utility that monitors any changes in the source code and automatically restart the app when it detects changes.
+
+- Boost developer productivity during development
+
+-> Automates restart process
+
+## TypeScript
+
