@@ -34,3 +34,11 @@ Need Node.js to run JS code and NPM helps manage it.
 - **NPM:** A solid default for most projects, especially if you're new to Node.js.
 - **Yarn:** Consider if you need consistently fast installs or prefer its specific CLI syntax.
 - **PNPM:** Ideal if you manage many Node.js projects on your machine and want to optimize disk usage and installation times.
+
+### What a Node Package is
+
+- Reusable piece of code that someone else wrote and published.
+
+- Share solutions to common problems.
+
+## Basic NodeJS commands
