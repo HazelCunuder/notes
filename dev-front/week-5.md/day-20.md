@@ -89,3 +89,27 @@ Includes:
 ```bsh
 npm update <package name>
 ```
+
+## Linters and Formatters
+
+**Linters**: Tools that analyzes code for errors. Identifies unused variables, security vulnerabilities or anti-patterns.
+
+**Formatters**: Automatically reformat code to match specific style guide. Focus only on aesthetic.
+
+### Differences
+
+# Linter vs. Formatter Comparison
+
+| Feature     | Linter (e.g., ESLint)                                       | Formatter (e.g., Prettier)                                  |
+| :---------- | :---------------------------------------------------------- | :---------------------------------------------------------- |
+| **Purpose** | **Code Quality & Style Adherence:** Finds potential errors, enforces best practices, and identifies stylistic issues that might lead to bugs. | **Code Aesthetics & Consistency:** Automatically adjusts code layout, spacing, and formatting to a predefined style. |
+| **Focus** | Behavior, potential bugs, code structure, code correctness. | Readability, consistent visual presentation.                |
+| **Action** | Warns, errors, suggests fixes. Can often auto-fix some issues. | Automatically rewrites code formatting.                     |
+| **Example** | "You have an unused variable." "Avoid using `var`." "This function is too complex." | "Add a semicolon." "Change indentation from 2 to 4 spaces." "Wrap this line if it's too long." |
+
+## Key Differences & Synergy
+
+- **Linters** are about **code correctness and best practices**, helping you write *better* code by catching logical and structural issues.
+- **Formatters** are about **code presentation and consistency**, making your code *prettier* and easier to read across a team.
+
+It's common and highly recommended to use both together (e.g., **ESLint + Prettier**) to achieve both high code quality and consistent formatting. You typically configure them to work in harmony, with the formatter handling stylistic rules and the linter focusing on potential errors and semantic issues.
