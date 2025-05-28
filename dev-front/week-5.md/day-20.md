@@ -98,8 +98,6 @@ npm update <package name>
 
 ### Differences
 
-# Linter vs. Formatter Comparison
-
 | Feature     | Linter (e.g., ESLint)                                       | Formatter (e.g., Prettier)                                  |
 | :---------- | :---------------------------------------------------------- | :---------------------------------------------------------- |
 | **Purpose** | **Code Quality & Style Adherence:** Finds potential errors, enforces best practices, and identifies stylistic issues that might lead to bugs. | **Code Aesthetics & Consistency:** Automatically adjusts code layout, spacing, and formatting to a predefined style. |
@@ -107,9 +105,17 @@ npm update <package name>
 | **Action** | Warns, errors, suggests fixes. Can often auto-fix some issues. | Automatically rewrites code formatting.                     |
 | **Example** | "You have an unused variable." "Avoid using `var`." "This function is too complex." | "Add a semicolon." "Change indentation from 2 to 4 spaces." "Wrap this line if it's too long." |
 
-## Key Differences & Synergy
+### Key Differences & Synergy
 
 - **Linters** are about **code correctness and best practices**, helping you write *better* code by catching logical and structural issues.
 - **Formatters** are about **code presentation and consistency**, making your code *prettier* and easier to read across a team.
 
 It's common and highly recommended to use both together (e.g., **ESLint + Prettier**) to achieve both high code quality and consistent formatting. You typically configure them to work in harmony, with the formatter handling stylistic rules and the linter focusing on potential errors and semantic issues.
+
+### Global or Local?
+
+Local install is almost always going to be prefered for the following reasons:
+
+- Different rules for different projects
+- Version control: Specify version of linters, formatters and dependencies, so that people who join can see them.
+- Dependency management: Keep global environment clean and avoids conflict
