@@ -42,3 +42,32 @@ Need Node.js to run JS code and NPM helps manage it.
 - Share solutions to common problems.
 
 ## Basic NodeJS commands
+
+### Initialize Node Project
+
+- create `package.json` file:
+
+```bsh
+npm init
+```
+
+- Answer the questions asked
+
+### Understand `package.json` file
+
+- Heart of node.js project
+
+Includes:
+
+- name: Name of project
+- version: Current version of project
+- description: Short description of project
+- main: Entry point of application
+- scripts: Custom commands you can run
+- keywords: Array of strings that describe your project
+- author: Project's author
+- license: License under which the project is distributed
+- dependencies: Object; list production dependencies -> mandatory for code to run
+- devDependencies: Object; list dev dependencies -> only for testing
+- engines: Specify node.js version necessary
+- repository: Where source code is hosted
