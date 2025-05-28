@@ -71,3 +71,21 @@ Includes:
 - devDependencies: Object; list dev dependencies -> only for testing
 - engines: Specify node.js version necessary
 - repository: Where source code is hosted
+
+### Install a package
+
+- Local install: Install the package directly inside of the project.
+
+- Global Install: Install package globally on the machine
+
+### Uninstall package
+
+- Local: Remove package from node_module and from dependencies and devDependencies in package.json
+
+- Global: Remove whole package
+
+### Update package
+
+```bsh
+npm update <package name>
+```
