@@ -65,3 +65,13 @@ An SPA is a web application that loads only once at the beginning and then **int
 3. **Client-Side Rendering:** All subsequent interactions (navigating to other "pages," clicking buttons, submitting forms) are handled by Angular's JavaScript, which dynamically modifies the DOM. The browser **does not make full requests** to the server to get new HTML pages.
 4. **Backend API (RESTful):** To get or submit data, the SPA communicates with a server via API requests (often RESTful) that return data (generally in JSON format) rather than complete HTML pages. Angular provides the `HttpClient` module to facilitate these requests.
 5. **Performance and User Experience:** SPAs offer a smoother and faster user experience, as "page" loading times are almost instantaneous after the initial load.
+
+## `@Component` decorator
+
+- Marks a class as an angular component.
+- Provides config metadata that determines how it's used and processed like:
+  - selector: HTML tag name for the component
+  - templateURL: HTML displayed by component
+  - styleURLS: CSS to make component look good
+
+In short, the `@Component` decorator glues, the logic, look and style of the component.
