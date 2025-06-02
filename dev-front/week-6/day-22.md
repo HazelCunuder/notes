@@ -51,3 +51,17 @@
   - **`app.component.ts`**: The logic (TypeScript class).
   - **`app.component.html`**: The HTML template for this component.
   - **`app.component.css`**: The styles specific to this component.
+
+## Single Page Application
+
+**What is an SPA?**
+
+An SPA is a web application that loads only once at the beginning and then **interacts with the user by dynamically rewriting the current web page's content** rather than loading entirely new pages from a server with each interaction.
+
+**How Angular implements the SPA:**
+
+1. **Single Initial Load (`index.html`):** At startup, the browser loads a single HTML file (`index.html`) and a bundle of JavaScript files (your compiled Angular application).
+2. **JavaScript Takes Control:** Once your Angular application's JavaScript is loaded, it takes control of the `index.html`'s DOM (Document Object Model) (primarily via the `<app-root>` tag).
+3. **Client-Side Rendering:** All subsequent interactions (navigating to other "pages," clicking buttons, submitting forms) are handled by Angular's JavaScript, which dynamically modifies the DOM. The browser **does not make full requests** to the server to get new HTML pages.
+4. **Backend API (RESTful):** To get or submit data, the SPA communicates with a server via API requests (often RESTful) that return data (generally in JSON format) rather than complete HTML pages. Angular provides the `HttpClient` module to facilitate these requests.
+5. **Performance and User Experience:** SPAs offer a smoother and faster user experience, as "page" loading times are almost instantaneous after the initial load.
